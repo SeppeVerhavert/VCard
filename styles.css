@@ -1,35 +1,37 @@
-body, html {
-    height: 100%;
-    margin: 0;
-
-  }  
-.container {
-    position: relative;
-  }
-h1 {
-   color: white;
-   text-align: center;
-}
-div {
-    overflow: hidden;  
+body {
+    margin:0;
+    padding:0;
+    background-image: url("bg.jpg")
 }
 
-.job {
-    float: left;
-}
-.contact {
-    float: right;
+h1{
+    text-align:center;
+    color:white;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("https://i.imgur.com/lDPtUWa.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h2{
+    color:white;
+}
+
+p{
+    font-size:19px;
+    color:white;
+}
+#overlay {
+    margin:50px auto;
+    width:960px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block1{
+    width:500px;
+    height:500px;
+    float:left;
+}
+
+.block2{
+    width:400px;
+    float:left;
+    margin-left:50px;
 }
