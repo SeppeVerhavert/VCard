@@ -1,27 +1,35 @@
-body{
-    margin: auto;
-    max-width: 500px;
-    border: solid 5px grey;
-    background-image: radial-gradient( #F24405 20%, #F20544 40%, #BF045B 60%, #2E0259 80%, #210140 100%);
-    background-repeat: no-repeat;
-}
-h1{
+body, html {
+    height: 100%;
+    margin: 0;
+
+  }  
+.container {
+    position: relative;
+  }
+h1 {
    color: white;
    text-align: center;
 }
-div
-{
+div {
     overflow: hidden;  
 }
-.left
-{
-   float: left; 
-}.right
-{
+
+.job {
+    float: left;
+}
+.contact {
     float: right;
 }
-img
-{
-    height: 50px;
-    width: 50px;
+
+.bg {
+    /* The image used */
+    background-image: url("https://i.imgur.com/lDPtUWa.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
