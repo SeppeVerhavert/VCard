@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    max-width: 500px;
+    border: solid 5px grey;
+    background-image: radial-gradient#210140 20%, #2E0259 20%,#BF045B 20%, #F20544 20%, #F24405 20%;
+    background-repeat: no-repeat;
+}
+h1{
+   border-bottom: solid grey 5px;
+}
+div
+{
+    overflow: hidden;  
+}
+.left
+{
+   float: left; 
+}.right
+{
+    float: right;
+}
+img
+{
+    height: 50px;
+    width: 50px;
+}
